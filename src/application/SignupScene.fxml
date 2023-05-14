@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #222222;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupSceneController">
+   <children>
+      <ImageView fx:id="imgLogo" fitHeight="203.0" fitWidth="203.0" layoutX="538.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/Planet.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfUser" layoutX="449.0" layoutY="339.0" prefHeight="64.0" prefWidth="378.0" promptText="Username" style="-fx-background-color: #C1FFDB;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnSignup" layoutX="449.0" layoutY="494.0" mnemonicParsing="false" onAction="#goToLogin" prefHeight="64.0" prefWidth="378.0" style="-fx-background-color: #C1FFDB;" text="Sign Up" textFill="#212121">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="tfPass" layoutX="449.0" layoutY="408.0" prefHeight="64.0" prefWidth="378.0" promptText="Password" style="-fx-background-color: #C1FFDB;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="btnLogin" layoutX="1170.0" layoutY="10.0" mnemonicParsing="false" onAction="#goBackToLogin" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #C1FFDB;" text="Log in" textFill="#212121">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
