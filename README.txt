@@ -1,4 +1,4 @@
-Rohan Patel - Data Structures Used
+Violet Patel - Data Structures Used
 
 DataCenter
 - HashSet of Strings for the dictionary for extremely quick checks to see if a word is contained in the dictionary.
